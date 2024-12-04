@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +8,7 @@
   </head>
   <body>
     <header>
-      <div class="logo">My Website</div>
+      <div class="logo"><img src="Untitled-2 copy.svg" alt="logo" /></div>
       <button class="hamburger" aria-label="Toggle Navigation">&#9776;</button>
       <nav class="nav-menu">
         <ul>
@@ -18,7 +17,7 @@
         </ul>
       </nav>
     </header>
-    sn
+
     <main>
       <div class="splash-wrapper">
         <div class="splash-screen">
@@ -148,154 +147,3 @@
     </script>
   </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rjettur</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">My Website</div>
-      <button class="hamburger" aria-label="Toggle Navigation">&#9776;</button>
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="index.html">heimarsiða</a></li>
-          <li><a href="laun.html">laun</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <div class="splash-wrapper">
-        <div class="splash-screen">
-          <div class="loading-bar"></div>
-        </div>
-      </div>
-
-      <div class="chat_icon">
-        <button id="openChat">💬</button>
-      </div>
-
-      <div class="ancre" id="toggleText">
-        <div class="form-container">
-          <button id="closeChat" class="close-btn">✖</button>
-          <form action="/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter your name"
-              required
-            />
-
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-
-            <label for="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              placeholder="Enter your message"
-              required
-            ></textarea>
-
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-      </div>
-
-      <div id="slideset2">
-        <div>
-          <img src="pexels-janetrangdoan-1024248.jpg" alt="" />
-        </div>
-
-        <div>
-          <img src="pexels-cowomen-1058097-2041627.jpg" alt="" />
-        </div>
-
-        <div>
-          <img src="pexels-serpstat-177219-572056.jpg" alt="" />
-        </div>
-      </div>
-
-      <section class="home">
-        <div class="text-content">
-          <h1>rjettur</h1>
-          <p>
-            það sem við gerum hjerna hja rjettur er að gefa ollum uplisingar um
-            hvernig skall passa að þer er borgað rjett og bara færð oll þin
-            rjettindi
-          </p>
-        </div>
-      </section>
-
-      <section class="umokkur">
-        <div class="text-content">
-          <h1>hvar oflum við uplisingarnar okkar</h1>
-          <p>
-            VIÐ FAUM OKKAR UFLISNGUM FRA STJETTAFJELOGONUM EN ÞAU ERU ERFIÐ AÐ
-            SKILJA OG ERFIT AÐ LEITA AÐ ÞVI SEM MANNI VANTAR I RAUN
-          </p>
-        </div>
-
-        <div class="text-content">
-          <h1>gerðum við mistok</h1>
-          <p>
-            UPLISINGARNAR ERU ALLAR TIL A NETTINU OG EF VIÐ HOFUM GERT MISTOK
-            ENDILEGA SENTU
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>snorri fryer harðarson</p>
-      <p>snorrifreyr07@gmail.com</p>
-    </footer>
-
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const navMenu = document.querySelector(".nav-menu");
-
-      hamburger.addEventListener("click", () => {
-        navMenu.classList.toggle("open");
-      });
-      const min = 1000;
-      const max = 3000;
-      const randi = Math.floor(Math.random() * (max - min + 1)) + min;
-
-      setTimeout(() => {
-        const splashWrapper = document.querySelector(".splash-wrapper");
-        if (splashWrapper) {
-          splashWrapper.style.display = "none";
-        }
-      }, randi);
-
-      console.log(`Splash screen will disappear after ${randi} milliseconds.`);
-      document
-        .getElementById("openChat")
-        .addEventListener("click", function () {
-          document.getElementById("toggleText").style.display = "block";
-        });
-
-      document
-        .getElementById("closeChat")
-        .addEventListener("click", function () {
-          document.getElementById("toggleText").style.display = "none";
-        });
-    </script>
-  </body>
-</html>
->>>>>>> bd96e9e2072389f54dde49c57e85457807a97bc6

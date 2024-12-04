@@ -28,7 +28,7 @@ body {
     position: fixed;
     overflow: hidden;
 }
-
+.logo{width: 100px;}
 .loading-bar {
     width: 20%;
     height: 10px;
