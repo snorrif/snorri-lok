@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 100;
 }
 
 header .logo {
@@ -89,7 +90,7 @@ main {
 }
 
 section {
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 2rem;
     background: white;
@@ -102,6 +103,7 @@ section {
 section > * {
     width: 80%; margin: 0 auto;
     transform-origin: top;
+    display: grid;
 }
 
 section img {
@@ -257,6 +259,11 @@ table caption {
 #slideset2 > div:nth-child(3) { animation-delay: 8s; }
 
 @media screen and (max-width: 600px) {
+    
+  
+  
+ 
+  
     body {
         font-size: 0.8rem;
     }
