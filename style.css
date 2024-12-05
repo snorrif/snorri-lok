@@ -52,6 +52,7 @@ header {
     align-items: center;
     position: relative;
     z-index: 100;
+    font-size: larger;
 }
 
 header .logo {
